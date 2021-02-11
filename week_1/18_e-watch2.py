@@ -1,0 +1,10 @@
+source = int(input())
+h = source // 3600
+hours_ost = source % 3600
+m = hours_ost // 60
+s = hours_ost % 60
+m1 = (60 + int(m)) % 60
+s1 = (60 + int(s)) % 60
+m2 = f"{m1:02d}"
+s2 = f"{s1:02d}"
+print((24 + int(h)) % 24, ":", m2, ":", s2, sep="")
