@@ -1,12 +1,12 @@
-def C(n, k):
+def Cnk(n, k):
     if k == n or k == 0:
         return 1
     if k != 1:
-        return C(n-1, k) + C(n-1, k-1)
+        return Cnk(n - 1, k) + Cnk(n - 1, k - 1)
     else:
         return n
 
 
-n = int(input())
-k = int(input())
-print(C(n, k))
+n1 = int(input())
+k1 = int(input())
+print(Cnk(n1, k1))
