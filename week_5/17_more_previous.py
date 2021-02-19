@@ -1,3 +1,6 @@
+# Дан список чисел.
+# Выведите все элементы списка, которые больше предыдущего элемента.
+
 numList = list(map(int, input().split()))
 resNumList = []
 current = numList[0]

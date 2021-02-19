@@ -1,3 +1,5 @@
+# Дана строка. Замените в этой строке все цифры 1 на слово one.
+
 string = str(input())
 string = string.strip()
 sub_string = "1"

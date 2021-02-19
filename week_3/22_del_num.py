@@ -1,3 +1,5 @@
+# Дана строка. Удалите из этой строки все символы @.
+
 string = str(input())
 string = string.strip()
 sub_string = "@"

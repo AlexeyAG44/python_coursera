@@ -1,3 +1,5 @@
+# Найдите количество положительных элементов в данном списке.
+
 numList = list(map(int, input().split()))
 i = 0
 for ind in numList:
