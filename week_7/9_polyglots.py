@@ -20,7 +20,6 @@ man = set()
 for j in range(int(input())):
     man.add(str(input()))
 unique |= man
-
 m |= man
 for i in range(1, n):
     man = set()
